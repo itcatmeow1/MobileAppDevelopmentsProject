@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "567060414874",
+    "firebase_url": "https://hospitallocation-2a8b7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hospitallocation-2a8b7",
+    "storage_bucket": "hospitallocation-2a8b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567060414874:android:77e6bf238d9a53c182ba23",
+        "android_client_info": {
+          "package_name": "com.example.hospitallocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567060414874-g2i34svttome2e1hauk11njh7ht71etl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCom8xe0odTgi6Er8uDpSkcjNn50TVasFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567060414874-g2i34svttome2e1hauk11njh7ht71etl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
