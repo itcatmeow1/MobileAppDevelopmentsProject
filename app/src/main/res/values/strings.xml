@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">HospitalLocation</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="messageWithLink"><a href="https://github.com/itcatmeow1/MobileAppDevelopmentsProject">GITHUB</a></string>
 </resources>

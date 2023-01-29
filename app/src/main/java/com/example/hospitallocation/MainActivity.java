@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button button;
     Button button2;
+    Button button4;
     //private GoogleMap mMap;
 
     String perms[] = {"android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_COARSE_LOCATION", "android.permission.ACCESS_NETWORK_STATE", "android.permission.INTERNET"};
@@ -50,14 +51,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //button.setOnClickListener(new View.OnClickListener() {
-        //  @Override
-        //public void onClick(View view) {
-        //  Intent intent = new Intent();
-        //intent.setClass(getApplicationContext(),MapsActivity.class);
-        //startActivity(intent);
-        //}
-        //});
+        button4 = (Button) findViewById(R.id.button4);
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(getApplicationContext(),About.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
